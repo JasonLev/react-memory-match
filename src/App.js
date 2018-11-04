@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Board from './components/Board';
 import GameHeader from './components/GameHeader';
-import Difficulty from './enums';
-
+import Difficulty from './constants/enum-difficulty';
 
 class App extends Component {
   constructor(props){
